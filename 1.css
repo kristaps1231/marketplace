@@ -1,0 +1,189 @@
+body {
+    background-image: url("https://wallpapers.com/images/hd/black-car-4k-wnfjwxcbybpwbs08.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 98vw;
+    overflow: hidden;
+
+  
+}
+
+.logo{
+    display: flex;
+    width: 90px;
+    grid-column: 3/4;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+.logo-img {
+
+    border-radius: 100%;
+}
+.profils{
+    display: flex;
+    width: 90px;
+    color: aliceblue;
+    
+    
+}
+
+.profils button {
+    background-color: transparent;
+    border-style: none;
+}
+
+.profils button img {
+    background-color: transparent
+}
+
+.Augsa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-container{
+     padding: 10px 15px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20%;
+    
+
+    
+}
+.search-container input[type="text"] {
+    padding: 10px 15px;
+    width: 300px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+}
+
+.Kpuse{
+    display: flex;
+    width: 17%;
+    height: 500px;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-left: 30px;
+    
+    
+    
+}
+.K1{
+    width:100%;
+    text-align: center;
+    color: aliceblue;
+}
+.BMW{
+  border: none;
+  color: white;
+  padding: 7px 7px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 10px 10px;
+  
+}
+
+.link { 
+    text-decoration: none;
+    color: white;
+    transition: 350ms all ease-in-out;
+}
+
+.link:hover {
+    color: yellow;
+}
+.Audi{
+border: none;
+  color: white;
+  padding: 7px 7px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 10px 10px;
+}
+.Volkswagen{
+border: none;
+  color: white;
+  padding: 7px 7px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 10px 10px;
+}
+.KIA{
+border: none;
+  color: white;
+  padding: 7px 7px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 10px 10px;
+}
+.Volvo{
+border: none;
+  color: white;
+  padding: 7px 7px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 10px 10px;
+}
+.Mercedes{
+border: none;
+  color: white;
+  padding: 7px 7px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 10px 10px;
+}
+
+.galvanie{
+    display: flex;
+    width: 99%;
+    height: 50%;
+    flex-direction: row;
+    border-radius: 10px;
+    margin-left: 10px;
+    overflow: hidden;
+    
+}
+
+.auto {
+
+    width: 69vw;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.auto-bloks {
+
+    width: 33%;
+    height:40%;
+    padding: 30px;
+    box-sizing: border-box;
+    justify-content:center ;
+
+}
+
+.auto-bloks img {
+
+    width: 100%;
+    height: 100%;
+
+}
+

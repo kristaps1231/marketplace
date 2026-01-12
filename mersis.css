@@ -1,0 +1,68 @@
+
+body {
+    background-image: url("https://wallpapers.com/images/hd/black-car-4k-wnfjwxcbybpwbs08.jpg"); /* vari mainīt uz Mercedes fonu */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.Mercades {
+    text-align: center;
+    padding: 4%;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: nowrap; 
+}
+
+
+.container img {
+    flex: 1 1 0;
+    max-width: 30%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 6px;
+    transition: transform 0.75s ease;
+    cursor: zoom-in;
+}
+
+
+.container img:hover,
+.container img:active {
+    transform: scale(1.7);
+    cursor: zoom-out;
+}
+
+
+.par {
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+    padding: 0 10px;
+}
+
+
+@media (max-width: 1024px) {
+    .container img {
+        max-width: 40%; 
+    }
+}
+
+@media (max-width: 600px) {
+    .container img {
+        max-width: 90%; 
+    }
+}

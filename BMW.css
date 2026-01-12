@@ -1,0 +1,77 @@
+
+body {
+  background-image: url("https://storage.googleapis.com/thehundreds/media/2014/12/THEHUNDREDS-E30M3-FRONT-LP.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.H1 {
+  text-align: center;
+  padding: 4%;
+  color: white;
+  font-size: 23px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap; 
+  gap: 1rem;
+  padding: 1rem;
+}
+
+
+.container img {
+  flex: 0 0 33.333%;      
+  max-width: 33.333%;
+  height: 250px;           
+  object-fit: cover;      
+  transition: transform 0.75s ease;
+  cursor: zoom-in;
+  border-radius: 6px;     
+}
+
+
+.container img:active,
+.container img:hover {
+  transform: scale(1.7);
+  cursor: zoom-out;
+}
+
+.par {
+  color: white;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 0 1rem;
+  font-size: 20px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+}
+
+
+@media (max-width: 1024px) {
+  .container img {
+    flex: 0 0 30%;
+    max-width: 30%;
+    height: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+  .container img {
+    flex: 0 0 70%;   
+    max-width: 70%;
+    height: 180px;
+  }
+}
