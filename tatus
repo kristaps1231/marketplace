@@ -1,0 +1,30 @@
+[33mcommit 83e5b13d4e1b3b4cdf75b1d7b4ac7172b96b1478[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: kristaps1231 <dolbekristaps0@gmail.com>
+Date:   Mon Jan 12 09:08:05 2026 +0000
+
+    push
+
+[33mcommit 4d9bd8051063f8fcbc41c105a2b519b6b9a6c218[m
+Merge: 41ec579 6957773
+Author: kristaps1231 <dolbekristaps0@gmail.com>
+Date:   Mon Jan 12 09:06:07 2026 +0000
+
+    Merge branch 'main' of https://github.com/kristaps1231/marketplace
+
+[33mcommit 41ec57964f087e5ee92bce0cf807294085dac978[m
+Author: kristaps1231 <dolbekristaps0@gmail.com>
+Date:   Mon Jan 12 06:48:07 2026 +0000
+
+    First Commit
+
+[33mcommit 6957773dcb54012fcb7dc74249d15b64477ba1f4[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: kristaps1231 <dolbekristaps0@gmail.com>
+Date:   Sat Nov 8 22:55:49 2025 +0200
+
+    Add files via upload
+
+[33mcommit 960ed1ddb5061a52a5363d780c6591435f6eed5e[m
+Author: kristaps1231 <dolbekristaps0@gmail.com>
+Date:   Thu Nov 6 12:44:10 2025 +0200
+
+    Initial commit
